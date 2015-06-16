@@ -1,0 +1,85 @@
+/*PAGE ELEMENTS and GENERAL*/
+* {
+	font-family: "Verdana", sans-serif, monospace;
+	color:#020202;
+	padding:0px;
+	margin:0px;
+}
+html {
+	background-color:#999999;
+	overflow-y:scroll;
+}
+#innerPage {
+	width:1024px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	padding:5px;
+	background-color:#FFFFFF;
+	-webkit-box-shadow:5px 0px 0px Black;
+	box-shadow:0px 0px 25px Black;
+}
+
+/*CONTENT ELEMENTS*/
+div.contentContainer {
+	border:1px solid #000000;
+	margin-top:5px;
+	padding: 5px;
+}
+
+.contentTitle {
+	text-align:center;
+	padding-bottom: 20px;
+}
+
+.contentText {
+	text-align:justify;
+}
+
+#panoFuncHall {
+	width:800px;
+	height:300px;
+}
+
+p.center {
+	text-align: center;
+}
+
+/*IMAGES*/
+#logoBanner {
+	width:1022px;
+	height:366px;
+	border:1px solid #000000;
+}
+
+#logoHolder {
+	padding:0px;
+	margin:0px;
+}
+
+#barImage {
+	width:200px;
+	height:150px;
+	float:left;
+	margin:5px;
+}
+
+/*FOOTER ELEMENTS*/
+
+p.tinyText {
+	font-size:10px;
+	text-align:center;
+}
+
+a.cont:link, a.cont:visited {
+	text-decoration:none;
+	font-weight:bold;
+}
+
+a.cont:active, a.cont:hover {
+	color:#ff0000;
+	font-weight:bold;
+}
+
+/*NAV BAR ELEMENTS*/
+/*MOVED TO NEW CSS*/

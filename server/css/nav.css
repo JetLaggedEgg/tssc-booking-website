@@ -1,0 +1,78 @@
+/*NAV BAR ONE*/
+#navBarOne {
+	height:25px;
+	margin:0px;
+	background-color:#999966;
+	padding:0px 0px 0px;
+	border:1px solid #000000;
+}
+#navBarOneWrapper {
+}
+ul.nav {
+	list-style-type:none;
+}
+li.nav {
+	float:left;
+	margin-right:3px;
+}
+a.nav:link, a.nav:visited {
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	width:110px;
+	height:25px;
+}
+a.nav:active, a.nav:hover {
+	background-color:#000000;
+	color:#ffffff;
+}
+/*LOGIN BAR*/
+
+/*NAV BAR TWO*/
+#navBarTwo {
+	height:25px;
+	margin:5px 0px 0px;
+	background-color:#999966;
+	padding:0px 0px 0px;
+	border:1px solid #000000;
+}
+#navBarTwoWrapper {
+	width:1024px;
+	margin:0px 159.5px;
+}
+ul.navTwo {
+	list-style-type:none;
+}
+li.navTwo {
+	float:left;
+}
+a.navTwo:link, a.navTwo:visited {
+	text-decoration:none;
+	text-align:center;
+	display:block;
+	padding:0px 10px 0px;
+	height:25px;
+}
+a.navTwo:active, a.navTwo:hover {
+	background-color:#FFFFFF;
+	color:#000000;
+}
+
+div.showBar {
+	height: 25px;
+	width: 100%;
+	background-color: #999966;
+	border: 1px solid #000000;
+}
+
+a.showBarText:visited, a.showBarText:link {
+	display: block;
+	float: left;
+	height: 15px;
+	padding: 5px 0px 5px 5px;
+}
+
+a.showBarText:hover, a.showBarText:active {
+	color: #000000;
+	background-color: #FFFFFF;
+}

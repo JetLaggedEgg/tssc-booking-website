@@ -1,0 +1,198 @@
+a.loginLink:link, a.loginLink:visited {
+	text-align:center;
+	margin: 10px auto;
+	padding: 5px;
+	display:block;
+	width:110px;
+	height:25px;
+	background-color:#999966;
+	border: 1px solid #000000;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.dashBtn:active, a.dashBtn:hover {
+	background-color:#000000;
+	color:#ffffff;
+}
+
+a.dashBtn:link, a.dashBtn:visited {
+	text-align:center;
+	margin: 10px auto;
+	padding: 5px;
+	display:block;
+	width:110px;
+	height:25px;
+	background-color:#999966;
+	border: 1px solid #000000;
+}
+
+a.dashBtn:active, a.dashBtn:hover {
+	background-color:#000000;
+	color:#ffffff;
+}
+
+div.dashBar {
+	width: 44.7%;
+	margin: 10px 2%;
+	padding: 0.5%;
+	background-color: #999966;
+	border: 1px solid #000000;
+	display: block;
+	float: left;
+}
+
+p.dashHead {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+p.dashSmall {
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+input.centBTN {
+	margin: 5px auto;
+	display: block;
+}
+
+iframe.wavingCat {
+	display: block;
+	margin: 10px auto;
+}
+
+p.errorMessage {
+	color: #ff0000;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+form.accountInfo {
+	text-align: center;
+	width: 100%;
+}
+
+div.accountInfoWrapper {
+	margin: 10px auto;
+	width: 50%;
+	display: block;
+	background-color: #999966;
+	border: 1px solid #000000;
+}
+
+input.accBtn {
+	margin: 5px auto;
+}
+
+table.bookingsTable {
+	width: 96%;
+	margin: 2%;
+	display: block;
+	background-color: #999966;
+	border: 1px solid #000000;
+	border-collapse: collapse;
+}	
+
+td.bookingsColumn {
+	font-size: 14px;
+	width: 7.69%;
+	border: 1px solid #000000;
+	text-align: center;
+	padding: 2px;
+}
+
+tr.bookingsRow {
+}
+
+table.tools{
+	width: 220px;
+	display: block;
+	margin: 0px auto;
+}
+
+.bksBtn {
+	cursor: pointer;
+}
+
+select.formSelect {
+	display: block;
+	width: 60%;
+	margin: 5px auto;
+}
+div.amendFormWrapper {
+	width: 39.8%;
+	margin: 10px 5%;
+}
+form.amendForm {
+
+}
+div.amendFormLeft {
+	float: left;
+	background-color: #999966;
+	border: 1px solid #000000;
+}
+div.amendFormRight {
+	float: right;
+	background-color: #AFAFAB;
+	border: 1px solid #000000;
+}
+div.amendFakeField {
+	height: 23px;
+	border: 1px inset #AFAFAB;
+	width: 60%;
+	background-color: #FFFFFF;
+	border-radius: 1px;
+	display: block;
+	margin: 5px auto;
+	padding-top: 3px;
+}
+p.fakeField {
+	text-align: center;
+}
+
+input.smallInput {
+	width: 20%;
+	display: block;
+}
+table.amendHand {
+	width: 60%;
+	display: block;
+	margin: 0px auto;
+	text-align: right;
+}
+tr.amendHand, td.amendHand {
+	text-align: right;
+	font-size: 12px;
+}
+
+table.dateTable {
+	width: 60%;
+	height: 46px;
+	margin: 5px auto;
+}
+tr.dateTable, td.dateTable {
+	text-align: center;
+	font-size: 14px;
+}
+input.dateInput {
+	width:70%;
+	margin: 0px 5%;
+}
+input.timeInput {
+	width:70%;
+	margin: 0px;
+}
+
+table.delete {
+	width: 60%;
+	margin: 5px auto;
+	border: 1px inset #AFAFAB;
+	border-radius: 1px;
+}
+tr.delete {
+	background-color: #FFFFFF;
+}

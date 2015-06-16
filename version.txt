@@ -1,0 +1,60 @@
+#######
+V 1.8.9
+#######
+
+jetlaggedcloud.no-ip.org
+
+ToDo:
+FIX AMEND ASAP!!!!!!!!!!
+
+Issues:
+number of bookings on account info
+
+MySQL Tables:
+
+USERS
+
+CREATE TABLE users (
+userID INT NOT NULL AUTO_INCREMENT,
+title VARCHAR(10) NOT NULL,
+forename VARCHAR(30) NOT NULL,
+surname VARCHAR(30) NOT NULL,
+username VARCHAR(60) NOT NULL,
+email VARCHAR(100) NOT NULL,
+password VARCHAR(100) NOT NULL,
+PRIMARY KEY (userID) );
+
+SERVICES
+
+CREATE TABLE services (
+serviceID INT NOT NULL AUTO_INCREMENT,
+serviceName VARCHAR(30) NOT NULL,
+serviceDesc VARCHAR(255) NOT NULL,
+cost INT(10) NOT NULL,
+PRIMARY KEY (serviceID) );
+
+LOCATIONS
+
+
+CREATE TABLE locations (
+locationID INT NOT NULL AUTO_INCREMENT,
+locationName VARCHAR(30) NOT NULL,
+locationsDesc VARCHAR(255) NOT NULL,
+ageRestriction INT(2) NOT NULL,
+PRIMARY KEY (locationID) );
+
+BOOKINGS
+
+CREATE TABLE bookings (
+bookingID INT NOT NULL AUTO_INCREMENT,
+userID INT,
+serviceID INT,
+locationID INT,
+startDate DATE NOT NULL,
+startTime TIME NOT NULL,
+endDate DATE NOT NULL,
+endTime TIME NOT NULL,
+cost INT(5),
+noGuests INT(5),
+PRIMARY KEY (bookingID) );
+

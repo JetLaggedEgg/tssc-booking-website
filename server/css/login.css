@@ -1,0 +1,53 @@
+div.formWrapper {
+	width: 50%;
+	margin: 10px auto;
+	padding: 10px;
+	border: 1px solid #000000;
+	display: block;
+	background-color: #999966;
+}
+
+form.form {
+	
+}
+
+input.formField {
+	display: block;
+	width: 60%;
+	margin: 5px 20% 0px;
+}
+
+p.fieldName {
+	text-align: center;
+}
+
+.center {
+	text-align: center;
+}
+
+input.button {
+	width: 60px;
+	height: 40px;
+	margin: 5px;
+}
+
+input.left {
+	float: left;
+}
+
+input.right {
+	float: right;
+}
+
+div.clear {
+	clear: both;
+}
+table.termsTable {
+	width: 60%;
+	height: 46px;
+	display: block;
+	margin: 0px auto;
+}
+input.formCheckBox {
+	
+}
