@@ -1,14 +1,17 @@
 # A2 IT - TSSC Project
 
-###### What is it?
+##### What is it?
+
+A quick run down:
 
 + This project was my A2 IT project assignment in Sixth Form.
 + It is a website with a member login system and a booking system too.
 + It is coded in HTML, CSS, PHP and MySQL.
++ It is not 100% complete, at all.
 
-###### Where can I access it?
+##### Where can I access it?
 
-Please note the following before doing so
+Please note the following before doing so:
 
 + It is not an active booking system.
 + Although registered users are saved into an encrypted and secure database, it is not as secure as it should be.
